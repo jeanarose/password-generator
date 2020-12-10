@@ -26,13 +26,17 @@ function generatePassword(){
   // Prompts/confirms to ask user how long they want their password to be 
   // and what characters they want to include.
   var passwordLength = prompt("How many characters do you want your password to be?");
+
+  // Conditionals to check if the user selected certain criteria
+  if(passwordLength < 8 || passwordLength > 128){
+    alert("Please enter a password length between 8 and 128.");
+    return generatePassword();
+  }
+
   var includeLowerCase = confirm("Do you want to include lowercase characters?");
   var includeUpperCase = confirm("Do you want to include uppercase characters?");
   var includeNumbers = confirm("Do you want to include numbers in your password?");
   var includeSpecialCharacters = confirm("Do you want to include special characters in your password?");
-  
-
-  // Conditionals to check if the user selected certain criteria
   
 
   // Password generator
