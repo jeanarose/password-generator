@@ -27,7 +27,7 @@ function generatePassword(){
   // and what characters they want to include.
   var passwordLength = prompt("How many characters do you want your password to be?");
 
-  // Conditionals to check if the user selected certain criteria
+  // Conditional to check that the password length is between 8 and 128
   if(passwordLength < 8 || passwordLength > 128){
     alert("Please enter a password length between 8 and 128.");
     return generatePassword();
@@ -37,7 +37,14 @@ function generatePassword(){
   var includeUpperCase = confirm("Do you want to include uppercase characters?");
   var includeNumbers = confirm("Do you want to include numbers in your password?");
   var includeSpecialCharacters = confirm("Do you want to include special characters in your password?");
-  
+
+  // Conditional to check if the user wants to include lowercase characters
+
+  // Conditional to check if the user wants to include uppercase characters
+
+  // Conditional to check if the user wants to include numeric characters
+
+  // Conditional to check if the user wants to include special characters
 
   // Password generator
 }
