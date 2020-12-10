@@ -41,25 +41,21 @@ function generatePassword(){
   // Conditional to check if the user wants to include lowercase characters
   if(includeLowerCase){
     chosenCriteria = chosenCriteria + lowerCaseCharacters;
-    console.log(chosenCriteria);
   }
 
   // Conditional to check if the user wants to include uppercase characters
   if(includeUpperCase){
     chosenCriteria = chosenCriteria + upperCaseCharacters;
-    console.log(chosenCriteria);
   }
 
   // Conditional to check if the user wants to include numeric characters
   if(includeNumbers){
     chosenCriteria = chosenCriteria + numericCharacters;
-    console.log(chosenCriteria);
   }
 
   // Conditional to check if the user wants to include special characters
   if(includeSpecialCharacters){
     chosenCriteria = chosenCriteria + specialCharacters;
-    console.log(chosenCriteria);
   }
 
   // Password generator
@@ -67,7 +63,6 @@ function generatePassword(){
     var randomCharacter = Math.floor(Math.random() * chosenCriteria.length);
     
     password = password + chosenCriteria.charAt(randomCharacter)
-    console.log(password);
   }
   return password;
 }
