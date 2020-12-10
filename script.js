@@ -63,10 +63,13 @@ function generatePassword(){
   }
 
   // Password generator
-  for(var i = 0; i < password.length; i++){
-    var randomCharacter = Math.floor(Math.random() * chosenCriteria);
+  for(var i = 0; i < passwordLength; i++){
+    var randomCharacter = Math.floor(Math.random() * chosenCriteria.length);
     
+    password = password + chosenCriteria.charAt(randomCharacter)
+    console.log(password);
   }
+  return password;
 }
 
 // Add event listener to generate button
