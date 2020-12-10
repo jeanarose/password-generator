@@ -10,5 +10,17 @@ function writePassword() {
 
 }
 
+function generatePassword(){
+  // Variable that holds the generated password
+
+  // Variables that holds password criteria characters
+
+  // Variable that holds characters that the user chose
+
+  // Conditionals to check if the user selected certain criteria
+
+  // Password generator
+}
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
