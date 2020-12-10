@@ -23,8 +23,7 @@ function generatePassword(){
   // Variable that holds characters that the user chose
   var chosenCriteria = ""
 
-  // Prompts/confirms to ask user how long they want their password to be 
-  // and what characters they want to include.
+  // Prompt that asks the user how long they want their password to be 
   var passwordLength = prompt("How many characters do you want your password to be?");
 
   // Conditional to check that the password length is between 8 and 128
@@ -33,6 +32,7 @@ function generatePassword(){
     return generatePassword();
   }
 
+  // Confirms to ask the user what characters they want to include in their password
   var includeLowerCase = confirm("Do you want to include lowercase characters?");
   var includeUpperCase = confirm("Do you want to include uppercase characters?");
   var includeNumbers = confirm("Do you want to include numbers in your password?");
@@ -59,11 +59,15 @@ function generatePassword(){
   }
 
   // Password generator
+  // Loop that will iterate as long as the password length that the user chose 
   for(var i = 0; i < passwordLength; i++){
+    // Variable that picks a random character from the chosenCriteria variable
     var randomCharacter = Math.floor(Math.random() * chosenCriteria.length);
     
+    // Adds the random characters to the password
     password = password + chosenCriteria.charAt(randomCharacter)
   }
+  // Displays the password on the page
   return password;
 }
 
