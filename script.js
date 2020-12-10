@@ -17,7 +17,7 @@ function generatePassword(){
   // Variables that holds password criteria characters
   var lowerCaseCharacters = "abcdefghijklmnopqrstuvwxyz";
   var upperCaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  var numbersCharacters = "0123456789";
+  var numericCharacters = "0123456789";
   var specialCharacters = "!@#$%^&*()";
 
   // Variable that holds characters that the user chose
@@ -40,22 +40,26 @@ function generatePassword(){
 
   // Conditional to check if the user wants to include lowercase characters
   if(includeLowerCase){
-
+    chosenCriteria = chosenCriteria + lowerCaseCharacters;
+    console.log(chosenCriteria);
   }
 
   // Conditional to check if the user wants to include uppercase characters
   if(includeUpperCase){
-
+    chosenCriteria = chosenCriteria + upperCaseCharacters;
+    console.log(chosenCriteria);
   }
 
   // Conditional to check if the user wants to include numeric characters
   if(includeNumbers){
-
+    chosenCriteria = chosenCriteria + numericCharacters;
+    console.log(chosenCriteria);
   }
 
   // Conditional to check if the user wants to include special characters
   if(includeSpecialCharacters){
-    
+    chosenCriteria = chosenCriteria + specialCharacters;
+    console.log(chosenCriteria);
   }
 
   // Password generator
