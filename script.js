@@ -23,7 +23,17 @@ function generatePassword(){
   // Variable that holds characters that the user chose
   var chosenCriteria = ""
 
+  // Prompts/confirms to ask user how long they want their password to be 
+  // and what characters they want to include.
+  var passwordLength = prompt("How many characters do you want your password to be?");
+  var includeLowerCase = confirm("Do you want to include lowercase characters?");
+  var includeUpperCase = confirm("Do you want to include uppercase characters?");
+  var includeNumbers = confirm("Do you want to include numbers in your password?");
+  var includeSpecialCharacters = confirm("Do you want to include special characters in your password?");
+  
+
   // Conditionals to check if the user selected certain criteria
+  
 
   // Password generator
 }
