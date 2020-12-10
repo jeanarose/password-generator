@@ -12,10 +12,16 @@ function writePassword() {
 
 function generatePassword(){
   // Variable that holds the generated password
+  var password = "";
 
   // Variables that holds password criteria characters
+  var lowerCaseCharacters = "abcdefghijklmnopqrstuvwxyz";
+  var upperCaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var numbersCharacters = "0123456789";
+  var specialCharacters = "!@#$%^&*()";
 
   // Variable that holds characters that the user chose
+  var chosenCriteria = ""
 
   // Conditionals to check if the user selected certain criteria
 
