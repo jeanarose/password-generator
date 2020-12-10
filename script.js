@@ -63,6 +63,10 @@ function generatePassword(){
   }
 
   // Password generator
+  for(var i = 0; i < password.length; i++){
+    var randomCharacter = Math.floor(Math.random() * chosenCriteria);
+    
+  }
 }
 
 // Add event listener to generate button
