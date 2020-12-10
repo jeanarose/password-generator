@@ -39,12 +39,24 @@ function generatePassword(){
   var includeSpecialCharacters = confirm("Do you want to include special characters in your password?");
 
   // Conditional to check if the user wants to include lowercase characters
+  if(includeLowerCase){
+
+  }
 
   // Conditional to check if the user wants to include uppercase characters
+  if(includeUpperCase){
+
+  }
 
   // Conditional to check if the user wants to include numeric characters
+  if(includeNumbers){
+
+  }
 
   // Conditional to check if the user wants to include special characters
+  if(includeSpecialCharacters){
+    
+  }
 
   // Password generator
 }
