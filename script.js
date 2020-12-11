@@ -27,8 +27,8 @@ function generatePassword(){
   var passwordLength = prompt("How many characters do you want your password to be?");
 
   // Conditional to check that the password length is between 8 and 128
-  if(passwordLength < 8 || passwordLength > 128){
-    alert("Please enter a password length between 8 and 128.");
+  if(passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)){
+    alert("Please enter a number between 8 and 128.");
     return generatePassword();
   }
 
@@ -57,6 +57,15 @@ function generatePassword(){
   if(includeSpecialCharacters){
     chosenCriteria = chosenCriteria + specialCharacters;
   }
+
+  // Conditional to check that the user selected at least one password criteria
+  if(!includeLowerCase &&
+    !includeUpperCase &&
+    !includeNumbers &&
+    !includeSpecialCharacters){
+      alert("Oops, you need to choose at least one password criteria!");
+      return generatePassword();
+    }
 
   // Password generator
   // Loop that will iterate as long as the password length that the user chose 
