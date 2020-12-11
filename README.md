@@ -24,7 +24,6 @@ View the deployed application here: https://jeanarose.github.io/password-generat
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
-* [Features](#features)
 * [Tests](#tests)
 
 # Installation
