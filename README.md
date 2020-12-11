@@ -48,6 +48,7 @@ The following sites were used to find JavaScript code to help create Password Ge
 * [Mozilla Developer Network:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) charAt
 * [Stack Overflow:](https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript) Generate random string
 * [W3 Schools:](https://www.w3schools.com/jsref/jsref_isnan.asp#:~:text=The%20isNaN()%20function%20determines,from%20the%20Number%20specific%20Number.) isNaN
+* [OWASP:](https://owasp.org/www-community/password-special-characters) Password Special Characters
 
 # License
 MIT License
