@@ -44,10 +44,10 @@ The following people collaborated to help make this application function. You ca
 * [Kyle Daniels](https://github.com/kyledaniels)
 
 The following sites were used to find JavaScript code to help create Password Generator:
-* [Coder Rocket Fuel: Math.random()](https://www.coderrocketfuel.com/article/generate-a-random-letter-from-the-alphabet-using-javascript)
-* [Mozilla Developer Network: charAt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
-* [Stack Overflow: Generate random string](https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript)
-* [W3 Schools: isNaN](https://www.w3schools.com/jsref/jsref_isnan.asp#:~:text=The%20isNaN()%20function%20determines,from%20the%20Number%20specific%20Number.)
+* [Coder Rocket Fuel:](https://www.coderrocketfuel.com/article/generate-a-random-letter-from-the-alphabet-using-javascript) Math.random()
+* [Mozilla Developer Network:](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt) charAt
+* [Stack Overflow:](https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript) Generate random string
+* [W3 Schools:](https://www.w3schools.com/jsref/jsref_isnan.asp#:~:text=The%20isNaN()%20function%20determines,from%20the%20Number%20specific%20Number.) isNaN
 
 # License
 MIT License
