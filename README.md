@@ -38,17 +38,17 @@ View the deployed application here: https://jeanarose.github.io/password-generat
 Password Generator can be used to generate a random password based on specific criteria that the user wishes to include. The use of passwords created from Password Generator can increase security and ease of password creation.
 
 # Credits
-The following people collaborated to help make this application function:
-* Pete Kriengsiri: https://github.com/pkriengsiri
-* John Erler: https://github.com/jerler1
-* Peter Colella: https://github.com/petercolella
-* Kyle Daniels: https://github.com/kyledaniels
+The following people collaborated to help make this application function. You can view their GitHub profiles by clicking on their names:
+* [Pete Kriengsiri](https://github.com/pkriengsiri)
+* [John Erler](https://github.com/jerler1)
+* [Peter Colella](https://github.com/petercolella)
+* [Kyle Daniels](https://github.com/kyledaniels)
 
 The following sites were used to find JavaScript code to help create Password Generator:
-* [Coder Rocket Fuel](https://www.coderrocketfuel.com/article/generate-a-random-letter-from-the-alphabet-using-javascript)
-* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
-* [Stack Overflow](https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript)
-
+* [Coder Rocket Fuel: Math.random()](https://www.coderrocketfuel.com/article/generate-a-random-letter-from-the-alphabet-using-javascript)
+* [Mozilla Developer Network: charAt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+* [Stack Overflow: Generate random string](https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript)
+* [W3 Schools: isNaN](https://www.w3schools.com/jsref/jsref_isnan.asp#:~:text=The%20isNaN()%20function%20determines,from%20the%20Number%20specific%20Number.)
 
 # License
 MIT License
