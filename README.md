@@ -27,6 +27,11 @@ View the deployed application here: https://jeanarose.github.io/password-generat
 * [Tests](#tests)
 
 # Installation
+1. Go to the [GitHub repository for Password Generator](https://github.com/jeanarose/password-generator).
+2. Click the green **Code** button.
+3. Copy the SSH key.
+4. In your terminal, go into the directory that you want to host Password Generator. 
+5. Use the command **git clone [insert SSH key URL]** and click **Enter** (Requires Git).
 
 # Usage
 
