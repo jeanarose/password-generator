@@ -1,4 +1,5 @@
 ## Password Generator
+[![GitHub issues](https://img.shields.io/github/issues/jeanarose/password-generator)](https://github.com/jeanarose/password-generator/issues)
 
 # Description
 [Password Generator](https://jeanarose.github.io/password-generator/) was created to generate a random password when the button "Generate Password" is clicked. The password is dependent on answers to a series of prompts that the user receives when the button is clicked. The user chooses:
@@ -34,8 +35,20 @@ View the deployed application here: https://jeanarose.github.io/password-generat
 5. Use the command **git clone [insert SSH key URL]** and click **Enter** (Requires Git).
 
 # Usage
+Password Generator can be used to generate a random password based on specific criteria that the user wishes to include. The use of passwords created from Password Generator can increase security and ease of password creation.
 
 # Credits
+The following people collaborated to help make this application function:
+* Pete Kriengsiri: https://github.com/pkriengsiri
+* John Erler: https://github.com/jerler1
+* Peter Colella: https://github.com/petercolella
+* Kyle Daniels: https://github.com/kyledaniels
+
+The following sites were used to find JavaScript code to help create Password Generator:
+* [Coder Rocket Fuel](https://www.coderrocketfuel.com/article/generate-a-random-letter-from-the-alphabet-using-javascript)
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
+* [Stack Overflow](https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript)
+
 
 # License
 MIT License
@@ -61,3 +74,13 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 # Tests
+Interested in testing Password Generator?
+
+Check to see that the code accounts for the following:
+1. When a non-numerical value is inputted into the prompt for **password length**, the user is asked to use a numerical value and is redirected.
+2. When a number that is less than 8 or greater than 128 is inputted into the prompt for **password length**, the user is asked to input a number that is between 8 and 128 and is redirected. 
+3. When no password criteria is selected, the user is asked to use at least one character type and is redirected.  
+
+---
+
+© 2020 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
