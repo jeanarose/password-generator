@@ -18,7 +18,7 @@ function generatePassword(){
   var lowerCaseCharacters = "abcdefghijklmnopqrstuvwxyz";
   var upperCaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numericCharacters = "0123456789";
-  var specialCharacters = "!@#$%^&*()";
+  var specialCharacters = "!@#$%^&*()'+,-./:<=?][_`{}~";
 
   // Variable that holds characters that the user chose
   var chosenCriteria = ""
